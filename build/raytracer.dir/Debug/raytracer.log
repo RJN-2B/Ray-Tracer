@@ -1,0 +1,122 @@
+﻿  main.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(72): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(73): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\vec.h(301): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\vec.h(462): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(708): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(709): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(710): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(731): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(733): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(736): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(753): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(833): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(241): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.h(42): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(160): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(163): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(162): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(161): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(274): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(335): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(338): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(415): warning C4018: '<': signed/unsigned mismatch
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(416): warning C4018: '<': signed/unsigned mismatch
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(421): warning C4244: '=': conversion from 'GLfloat' to 'unsigned char', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(422): warning C4244: '=': conversion from 'GLfloat' to 'unsigned char', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(423): warning C4244: '=': conversion from 'GLfloat' to 'unsigned char', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(424): warning C4244: '=': conversion from 'GLfloat' to 'unsigned char', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(543): warning C4305: '=': truncation from 'double' to 'float'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(678): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(693): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(694): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(701): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(708): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(717): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(716): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(723): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(775): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(778): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(805): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(862): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\main.cpp(946): warning C4305: 'argument': truncation from 'double' to 'const GLfloat'
+  ObjMesh.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(72): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(73): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\vec.h(301): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\vec.h(462): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(708): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(709): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(710): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(731): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(733): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(736): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(753): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(833): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(241): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.h(42): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(69): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(73): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(77): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(134): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(133): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(132): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(26): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(30): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(40): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(49): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(53): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(149): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(150): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(151): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(152): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(153): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(154): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(155): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(156): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(157): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(158): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(159): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(160): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.cpp(162): warning C4018: '<': signed/unsigned mismatch
+  SourcePath.cpp
+  Trackball.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(72): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(73): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(241): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.h(42): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Object.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(72): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(73): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\vec.h(301): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\vec.h(462): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(708): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(709): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(710): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(731): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(733): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(736): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(753): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\mat.h(833): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\common.h(241): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\objmesh.h(42): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\object.cpp(20): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\object.cpp(23): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\object.cpp(97): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\object.cpp(100): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\source\common\object.cpp(123): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+  Generating Code...
+  raytracer.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\Debug\raytracer.exe

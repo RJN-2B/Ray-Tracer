@@ -1,0 +1,381 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 9:17:56 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\3.12.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\3.12.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\3.12.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/3.12.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 9:17:58 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\3.12.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\3.12.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\3.12.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/3.12.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fa191.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 9:18:00 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_fa191.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fa191.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fa191.dir\Debug\cmTC_fa191.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fa191.dir\Debug\cmTC_fa191.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa191.dir\Debug\\" /Fd"cmTC_fa191.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa191.dir\Debug\\" /Fd"cmTC_fa191.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_fa191.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_fa191.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_fa191.lib" /MACHINE:X64  /machine:x64 cmTC_fa191.dir\Debug\testCCompiler.obj
+  cmTC_fa191.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_fa191.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_fa191.dir\Debug\cmTC_fa191.tlog\unsuccessfulbuild".
+  Touching "cmTC_fa191.dir\Debug\cmTC_fa191.tlog\cmTC_fa191.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_fa191.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7896e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 9:18:01 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_7896e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7896e.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7896e.dir\Debug\cmTC_7896e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7896e.dir\Debug\cmTC_7896e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7896e.dir\Debug\\" /Fd"cmTC_7896e.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Installations\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7896e.dir\Debug\\" /Fd"cmTC_7896e.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Installations\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_7896e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_7896e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_7896e.lib" /MACHINE:X64  /machine:x64 cmTC_7896e.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_7896e.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_7896e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_7896e.dir\Debug\cmTC_7896e.tlog\unsuccessfulbuild".
+  Touching "cmTC_7896e.dir\Debug\cmTC_7896e.tlog\cmTC_7896e.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_7896e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_09413.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 9:18:02 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_09413.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_09413.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_09413.dir\Debug\cmTC_09413.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_09413.dir\Debug\cmTC_09413.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09413.dir\Debug\\" /Fd"cmTC_09413.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09413.dir\Debug\\" /Fd"cmTC_09413.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\feature_tests.c"
+  feature_tests.c
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_09413.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_09413.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_09413.lib" /MACHINE:X64  /machine:x64 cmTC_09413.dir\Debug\feature_tests.obj
+  cmTC_09413.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_09413.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_09413.dir\Debug\cmTC_09413.tlog\unsuccessfulbuild".
+  Touching "cmTC_09413.dir\Debug\cmTC_09413.tlog\cmTC_09413.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_09413.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.60
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6ea92.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 9:18:02 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_6ea92.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6ea92.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6ea92.dir\Debug\cmTC_6ea92.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6ea92.dir\Debug\cmTC_6ea92.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6ea92.dir\Debug\\" /Fd"cmTC_6ea92.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6ea92.dir\Debug\\" /Fd"cmTC_6ea92.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_6ea92.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_6ea92.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_6ea92.lib" /MACHINE:X64  /machine:x64 cmTC_6ea92.dir\Debug\testCXXCompiler.obj
+  cmTC_6ea92.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_6ea92.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6ea92.dir\Debug\cmTC_6ea92.tlog\unsuccessfulbuild".
+  Touching "cmTC_6ea92.dir\Debug\cmTC_6ea92.tlog\cmTC_6ea92.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_6ea92.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_53198.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 9:18:03 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_53198.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_53198.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_53198.dir\Debug\cmTC_53198.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_53198.dir\Debug\cmTC_53198.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_53198.dir\Debug\\" /Fd"cmTC_53198.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\Installations\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_53198.dir\Debug\\" /Fd"cmTC_53198.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\Installations\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_53198.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_53198.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_53198.lib" /MACHINE:X64  /machine:x64 cmTC_53198.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_53198.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_53198.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_53198.dir\Debug\cmTC_53198.tlog\unsuccessfulbuild".
+  Touching "cmTC_53198.dir\Debug\cmTC_53198.tlog\cmTC_53198.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_53198.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.66
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_72f0b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.168+ga8fba1ebd7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/20/2019 9:18:04 PM.
+Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_72f0b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_72f0b.dir\Debug\".
+  Creating directory "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_72f0b.dir\Debug\cmTC_72f0b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_72f0b.dir\Debug\cmTC_72f0b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_72f0b.dir\Debug\\" /Fd"cmTC_72f0b.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26726 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_72f0b.dir\Debug\\" /Fd"cmTC_72f0b.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  E:\Visual Studio\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_72f0b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_72f0b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/CMakeFiles/CMakeTmp/Debug/cmTC_72f0b.lib" /MACHINE:X64  /machine:x64 cmTC_72f0b.dir\Debug\feature_tests.obj
+  cmTC_72f0b.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\Debug\cmTC_72f0b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_72f0b.dir\Debug\cmTC_72f0b.tlog\unsuccessfulbuild".
+  Touching "cmTC_72f0b.dir\Debug\cmTC_72f0b.tlog\cmTC_72f0b.lastbuildstate".
+Done Building Project "E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\CMakeFiles\CMakeTmp\cmTC_72f0b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.61
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

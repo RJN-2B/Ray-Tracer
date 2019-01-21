@@ -1,0 +1,20 @@
+﻿  Building Custom Rule E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/pngdecode/CMakeLists.txt
+  CMake does not need to re-run because E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/pngdecode/CMakeFiles/generate.stamp is up-to-date.
+  png.cpp
+  pngdec.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\pngdecode\pngdec.cpp(38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\pngdecode\pngdec.cpp(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\pngdecode\pngdec.cpp(189): warning C4244: '=': conversion from 'unsigned long' to 'unsigned short', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\pngdecode\pngdec.cpp(835): warning C4244: '=': conversion from 'unsigned long' to 'unsigned short', possible loss of data
+  pngenc.cpp
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\pngdecode\pngenc.cpp(77): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\installations\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\pngdecode\pngenc.cpp(96): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\pngdecode\pngenc.cpp(428): warning C4244: '=': conversion from 'unsigned long' to 'unsigned short', possible loss of data
+e:\school\tulane\junior\fall\graphics\uploading this rt\raytracer\pngdecode\pngenc.cpp(970): warning C4244: '=': conversion from 'unsigned long' to 'unsigned short', possible loss of data
+  zdec.cpp
+  zenc.cpp
+  zss.cpp
+  Generating Code...
+  pngdecode.vcxproj -> E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\pngdecode\Debug\pngdecode.lib

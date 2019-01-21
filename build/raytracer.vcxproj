@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9EE7F0E4-72C3-3D78-A98D-FBFF7E27C60B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>raytracer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">raytracer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">raytracer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">raytracer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">raytracer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">raytracer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">raytracer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">raytracer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">raytracer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glfw-3.2\src\Debug\glfw3.lib;Debug\glad.lib;pngdecode\Debug\pngdecode.lib;Debug\glad.lib;glfw-3.2\src\Debug\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/Debug/raytracer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/Debug/raytracer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glfw-3.2\src\Release\glfw3.lib;Release\glad.lib;pngdecode\Release\pngdecode.lib;Release\glad.lib;glfw-3.2\src\Release\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/Release/raytracer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/Release/raytracer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glfw-3.2\src\MinSizeRel\glfw3.lib;MinSizeRel\glad.lib;pngdecode\MinSizeRel\pngdecode.lib;MinSizeRel\glad.lib;glfw-3.2\src\MinSizeRel\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/MinSizeRel/raytracer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/MinSizeRel/raytracer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\deps;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\pngdecode;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders;E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\glfw-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glfw-3.2\src\RelWithDebInfo\glfw3.lib;RelWithDebInfo\glad.lib;pngdecode\RelWithDebInfo\pngdecode.lib;RelWithDebInfo\glad.lib;glfw-3.2\src\RelWithDebInfo\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/RelWithDebInfo/raytracer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/School/Tulane/Junior/Fall/Graphics/UPLOADING THIS RT/RayTracer/build/RelWithDebInfo/raytracer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\main.cpp" />
+    <ClInclude Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\common.h" />
+    <ClInclude Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\CheckError.h" />
+    <ClInclude Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\mat.h" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\ObjMesh.cpp" />
+    <ClInclude Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\ObjMesh.h" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\SourcePath.cpp" />
+    <ClInclude Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\SourcePath.h" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\Trackball.cpp" />
+    <ClInclude Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\Trackball.h" />
+    <ClCompile Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\Object.cpp" />
+    <ClInclude Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\Object.h" />
+    <ClInclude Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\source\common\vec.h" />
+    <None Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders\fshader.glsl" />
+    <None Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\shaders\vshader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\ZERO_CHECK.vcxproj">
+      <Project>{BB1380E9-5412-38E7-94BC-372E802088F9}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\glad.vcxproj">
+      <Project>{25E327EF-65EF-3B3B-A786-B32430809A36}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\glfw-3.2\src\glfw.vcxproj">
+      <Project>{661AB433-A065-3158-8126-6CC99E1610C2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\School\Tulane\Junior\Fall\Graphics\UPLOADING THIS RT\RayTracer\build\pngdecode\pngdecode.vcxproj">
+      <Project>{C6CCECA9-FF5B-39D0-A2F0-A34E0A864C59}</Project>
+      <Name>pngdecode</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
